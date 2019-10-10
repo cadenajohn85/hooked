@@ -8,15 +8,35 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  cursor: default;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  margin: 0 1em;
+}
+
+form {
+  margin: 1em;
+}
+
+input:first-of-type {
+  margin: 0 1em;
+  width: 400px;
 }
